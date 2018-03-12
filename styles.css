@@ -1,0 +1,46 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+/*****
+Header Styles
+*****/
+
+header{
+    background:linear-gradient(#000 5%, transparent),  url('data.jpg')  no-repeat  ;
+    background-size: cover;
+   /* height: 500px; */
+}
+header h1{
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;   
+    margin: 0 ;
+    font-size: 3.25em;
+    padding: 1em 1em 1em 0;
+}
+/****
+Nav Styles
+****/
+
+nav{
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom:0.75em;
+}
+a{
+    text-decoration: none;
+    padding: 0.5em;
+    color: #FFF;
+   
+    font-size: 1.25em;
+    font-family: Helvetica, sans-serif;
+}
+a:hover{
+    color: #29B6F6;
+}
+a:visited{
+    color:#fff;
+}
